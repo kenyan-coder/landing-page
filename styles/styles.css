@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    font-family: "Roboto", sans-serif;
+    background-color: #1F2937;
+    /* For debugging purporses */
+    /* border: 1px solid red; */
+}
+.header-links{
+    display: flex;
+    color: #e5e7eb;
+    font-size: 18px;
+    gap: 12px;
+
+}
+.links{
+    list-style-type: none;
+    text-decoration: none;
+    flex-shrink: 0;
+}
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    flex-shrink: 0;
+}
