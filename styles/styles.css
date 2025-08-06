@@ -8,15 +8,17 @@
     margin: 0;
     padding: 0;
 }
+
+ /* Header and related contents to header  */
+
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 75px;
     font-family: "Roboto", sans-serif;
     background-color: #1F2937;
-    /* For debugging purporses */
-    /* border: 1px solid red; */
+    gap:300px
 }
 .header-links{
     display: flex;
@@ -34,4 +36,46 @@
     font-size: 24px;
     color: #F9FAF8;
     flex-shrink: 0;
+}
+/* Second container and related content to the container */
+.second-container{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding-top: 48px;
+    gap: 36px;       
+}
+   
+.awesome-title{
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 4px;
+    max-width: 400px;
+}
+.awesome-image{
+    display: flex;
+    flex:1;
+    background-color: #85898f;
+    max-width: 400px;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
+.awesome-about{
+    font-size: 48px;
+    font-family: "Roboto",sans-serif;
+    color: #F9FAF8;
+}
+.awesome-paragraph{
+    font-size: 18px;
+    color: #F9FAF8;
+}
+button{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 5px;    
+    width: 100px;
+    height: 32px;
 }
