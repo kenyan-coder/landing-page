@@ -1,52 +1,56 @@
 *,
 *::before,
-*::after{
+*::after {
     box-sizing: border-box;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
- /* Header and related contents to header  */
+/* Header and related contents to header  */
 
-.header{
+.header {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 75px;
     font-family: "Roboto", sans-serif;
     background-color: #1F2937;
-    gap:300px
+    gap: 300px
 }
-.header-links{
+
+.header-links {
     display: flex;
     color: #e5e7eb;
     font-size: 18px;
     gap: 12px;
 
 }
-.links{
+
+.links {
     list-style-type: none;
     text-decoration: none;
     flex-shrink: 0;
 }
-.logo{
+
+.logo {
     font-size: 24px;
     color: #F9FAF8;
     flex-shrink: 0;
 }
+
 /* Second container and related content to the container */
-.second-container{
+.second-container {
     display: flex;
     justify-content: center;
     background-color: #1F2937;
     padding-top: 48px;
-    gap: 36px;       
+    gap: 36px;
 }
-   
-.awesome-title{
+
+.awesome-title {
     color: #F9FAF8;
     display: flex;
     flex-direction: column;
@@ -54,28 +58,78 @@
     gap: 4px;
     max-width: 400px;
 }
-.awesome-image{
+
+.awesome-image {
     display: flex;
-    flex:1;
+    flex: 1;
     background-color: #85898f;
     max-width: 400px;
     justify-content: center;
     align-items: center;
     color: #F9FAF8;
 }
-.awesome-about{
+
+.awesome-about {
     font-size: 48px;
-    font-family: "Roboto",sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #F9FAF8;
 }
-.awesome-paragraph{
+
+.awesome-paragraph {
     font-size: 18px;
     color: #F9FAF8;
 }
-button{
+
+button {
     background-color: #3882f6;
     color: #F9FAF8;
-    border-radius: 5px;    
+    border-radius: 5px;
     width: 100px;
     height: 32px;
+}
+/* Third container styling and its elements */
+.third-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.pretty-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.solo-image>img {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+
+}
+
+.solo-image {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+}
+
+.information {
+    margin-top: 18px;
+    font-size: 36px;
+    font-family: #1F2937;
+    font-weight: 900;
+}
+
+.image-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
