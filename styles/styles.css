@@ -8,14 +8,16 @@
     margin: 0;
     padding: 0;
 }
-
+html,body{
+    height: 100%;
+}
 /* Header and related contents to header  */
 
 .header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75px;
+    height: 50px;
     font-family: "Roboto", sans-serif;
     background-color: #1F2937;
     gap: 300px
@@ -46,7 +48,7 @@
     display: flex;
     justify-content: center;
     background-color: #1F2937;
-    padding-top: 48px;
+    padding-top: 36px;
     gap: 36px;
 }
 
@@ -139,7 +141,7 @@ button {
     flex-direction: column;     
     background-color: #e5e7eb;
     align-items: center;
-    padding: 48px 550px;
+    padding: 24px 550px;
     justify-content: center;
 }
 .quote{   
@@ -154,12 +156,38 @@ button {
     padding-right: 36px;
     font-weight: bold;
 }
-
-/* Footer styling */
-.footer{
+.call-to-action{
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 64px;
+    background-color: #3882f6;
+    padding: 48px;
+    margin:48px 500px;
+    border-radius: 5px;
+}
+.time{
+    font-size: 18px;
+    font-weight: bold;
+    color: #e5e7eb;
+}
+.sign-description{
+    font-size:12px;
+    font-weight: 200;
+}
+.sign-up{
+    border:2px solid #F9FAF8;
+}
+
+/* Footer styling */
+/* .footer{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 36px;
-}
+    padding: 18px;    
+    align-self: flex-end;
+    margin-top: auto;
+
+} */
