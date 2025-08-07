@@ -90,7 +90,7 @@ button {
 /* Third container styling and its elements */
 .third-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     align-items: center;
     gap: 32px;
@@ -105,16 +105,16 @@ button {
 
 .solo-image>img {
     display: flex;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border: 2px solid #3882f6;
     border-radius: 5px;
 
 }
 
 .solo-image {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     display: flex;
     gap: 4px;
     flex-direction: column;
@@ -131,5 +131,26 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
+}
+
+/* styling for the famous quote */
+.famous-quote{
+    display: flex;
+    flex-direction: column;     
+    background-color: #e5e7eb;
+    align-items: center;
+    padding: 48px 550px;
+    justify-content: center;
+}
+.quote{   
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;
+   
+}
+.quoted-from{
+    align-self: flex-end;
+    padding-right: 36px;
+    font-weight: bold;
 }
